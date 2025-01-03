@@ -198,7 +198,27 @@ img:hover {
 }
 
 .players-links {
+    display: flex;
+    flex-direction: column;
+}
+.players-links a {
     text-decoration: none;
     color: linen;
+    font-size: 32px;
+    margin: auto;
+    padding: 10px 25px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #666;
+    transition: 0.3s;
+    margin-top: 20px;
+    width: 15%;
+    text-align: center;
+}
+
+.players-links a:hover {
+    color: #ff4500;
+    background-color: #666;
+    box-shadow: 10px 10px 10px black;
 }
 
