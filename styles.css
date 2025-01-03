@@ -226,8 +226,36 @@ img:hover {
     display: flex;
 }
 
+.league-table {
+    text-align: center;
+    table-layout: fixed;
+    color: linen;
+}
+
+.league-table tr:nth-child(1){
+    background-color: linen;
+    color: #222;
+    height: 50px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.league-table tr:nth-child(even) {
+    background-color: #333;
+}
+
+.league-table tr, .league-table td, .league-table th {
+    border: 1px solid #777;
+    border-collapse: collapse;
+}
+
+.league-table td {
+    padding: 5px;
+}
+
 @media (hover: none) {
     body {
         background-color: pink;
     }
 } 
+
