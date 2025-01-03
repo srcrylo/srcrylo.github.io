@@ -222,6 +222,10 @@ img:hover {
     box-shadow: 10px 10px 10px black;
 }
 
+.proj-teams-top {
+    display: flex;
+}
+
 @media (hover: none) {
     body {
         background-color: pink;
